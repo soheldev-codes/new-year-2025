@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 img{
     width: 100%;
@@ -32,6 +31,7 @@ img{
     content: " ";
     position: absolute;
     inset: 0;
+    border-radius: 10px;
     background-image: linear-gradient(hsla(240, 100%, 1%, 0.874) ,hsla(0, 0%, 100%, 0.1) ) ;
     z-index: -1;
 }
@@ -68,6 +68,55 @@ img{
     color: #070211;
     font-size: 60px;
 }
+.offer_container img{
+    width: 70%;
+}
+
+/* Welcome Midnight  */
+.welcome_container{
+    color: #fff;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./Images/Vectorrr.png');
+    z-index: 2;
+   
+}
+
+.welcome_container::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, hsla(0, 0%, 2%, 0.9) ,hsla(0, 0%, 100%, 0.1) ) ;
+    z-index: -1;
+}
+
+
+
+
+.welcome_content h2{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.welcome_content p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.welcome_content a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
 
 
 
@@ -90,6 +139,9 @@ img{
 .offer_container {
         margin-top: 20px;
 }
+.offer_container img{
+    width: 100%;
+}
     .offer_container h2{
         
         font-size: 48px;
@@ -97,6 +149,10 @@ img{
     .offer_container h3{
         color: #070211;
         font-size: 40px;
+    }
+
+    .welcome_container{
+        padding: 50px 10px;
     }
     
   }
