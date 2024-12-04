@@ -169,6 +169,51 @@ img {
     padding: 20px;
 }
 
+/* Footer Section style */
+
+footer {
+    font-size: 24px;
+    color: #fff;
+    padding: 100px 0px;
+    background-color: #070211;
+}
+
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.footer-middel {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-middel img {
+    width: 70px;
+
+}
+
+
+.footer-buttom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 
