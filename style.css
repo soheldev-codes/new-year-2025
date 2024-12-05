@@ -202,10 +202,25 @@ img {
     justify-content: center;
 }
 
-.newsletter-btn input {
-    padding: 10px;
+.newsletter-btn input,
+button {
+    padding: 10px 20px;
     border-radius: 20px;
     border: none;
+    background: #fff;
+}
+
+.newsletter-btn input:active {
+    border: none;
+}
+
+.newsletter-btn button {
+
+    color: #fff;
+    background: #FF0000;
+    margin-left: -22px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 
