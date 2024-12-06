@@ -154,12 +154,26 @@ img {
 
 .comingsoon_container {
     /* margin: 50px 0px; */
-    padding: 20px;
+    padding: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 40px;
 
+}
+
+.comingsoon_container h4 {
+    font-size: 24px;
+    color: #FF0000;
+}
+
+.comingsoon_container h2 {
+    font-size: 48px;
+    padding: 10px 0px;
+}
+
+.comingsoon_container .red {
+    color: #FF0000;
 }
 
 .comingsoon_container img {
@@ -170,13 +184,18 @@ img {
     padding: 20px;
 }
 
-.subscribe-content {
+.subscribe-bg {
+
     border-radius: 10px;
     background-color: #ff00000f;
+    padding: 10px;
+}
+
+.subscribe-content {
     text-align: center;
     max-width: 800px;
     margin: 50px auto;
-    padding: 20px 0px;
+    padding: 40px 0px;
 }
 
 .subscribe-content img {
@@ -210,12 +229,12 @@ button {
     background: #fff;
 }
 
-.newsletter-btn input:active {
-    border: none;
+.newsletter-btn input:focus {
+    outline: none;
 }
 
 .newsletter-btn button {
-
+    cursor: pointer;
     color: #fff;
     background: #FF0000;
     margin-left: -22px;
@@ -238,7 +257,7 @@ button {
 footer {
     font-size: 24px;
     color: #fff;
-    padding: 100px 0px;
+    padding: 100px 10px;
     background-color: #070211;
 }
 
@@ -337,6 +356,17 @@ footer {
 
     .welcome_container {
         padding: 50px 10px;
+    }
+
+
+    .comingsoon_container {
+        /* margin: 50px 0px; */
+        padding: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        text-align: center;
+        gap: 40px;
+
     }
 
 }
