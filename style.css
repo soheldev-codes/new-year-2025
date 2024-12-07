@@ -184,6 +184,69 @@ img {
     padding: 20px;
 }
 
+
+.holidays-content {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.holidays-content h4 {
+    font-size: 24px;
+}
+
+.holidays-content h2 {
+    font-size: 72px;
+    margin: 20px 0px;
+}
+
+.holidays-content p {
+    font-size: 20px;
+}
+
+
+.holidays-content-image {
+    position: relative;
+}
+
+
+
+.holidays-top-img {
+    display: flex;
+}
+
+.holidays-bg-img {
+    z-index: -1;
+}
+
+.holidays-gift-img {
+    max-width: 50%;
+    margin-bottom: -200px;
+    z-index: 20;
+}
+
+/* .discount-img {
+    position: absolute;
+    max-width: 200px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .subscribe-bg {
 
     border-radius: 10px;
